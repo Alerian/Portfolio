@@ -1,0 +1,309 @@
+*{
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    background-color:rgba(30, 0, 54, 0.295);
+    margin-left:300px;
+    margin-right:300px;
+    box-shadow: #00000057 2px 2px 5px;
+    
+}
+/*------------HAMBURGER MENU----------------*/
+
+.burgerMenu{
+    background-color: #0000007a;
+    top:100%;
+
+}
+.listHolder{
+    display:none;
+    padding:20px;
+    font-size:20px;
+    text-align: center;
+    color: white;
+    background-color:rgba(71, 71, 71, 0.322)
+}
+#myWorkButton,#myContactButton{
+    padding:20px;
+}
+
+#menuBar {
+    color: white;
+    font-size:30px;
+    position: relative;
+    left:93%;
+    margin:10px;
+}
+#menuBar:hover{
+    color: rgb(187, 187, 187);
+}
+#gitHubLogo,#linekdinLogo{
+    color: white;
+    font-size:35px;
+    margin:10px;
+    position: relative;
+    right:40px;
+}
+#gitHubLogo:hover,#linekdinLogo:hover{
+    color: rgb(187, 187, 187);
+}
+a{
+    color: aliceblue;
+}
+
+/*------------HERO SECTION----------------*/
+h1{ font-size:60px; font-family:'Libre Franklin',sans-serif;}
+.sub{font-family:'Nunito Sans',sans-serif;}
+
+/*Hero image*/
+.hero{
+    background-image: linear-gradient(to bottom,rgba(46, 0, 46, 0.767),rgba(185, 53, 0, 0.274)),
+     url(img/Hero.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+/*Hero text*/
+.herotext{
+    border-radius:50px;
+    font-size:40px;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin:0px;
+}
+
+/*Hero button*/    
+.contact{
+    font-size: 20px;
+    position: relative;
+    bottom:40px;
+    background-color:white;
+    padding: 5px 30px;
+    color:black;
+    border-color: rgba(0, 0, 0, 0.842);
+    margin:0px;   
+}
+.contact:hover{
+    background-color: rgb(187, 187, 187);
+}
+/*--------------------------ABOUT ME-------------------------*/
+h2 {font-size:40px;font-family:'Libre Franklin',sans-serif;}
+.firstsection{
+    box-sizing:border-box;
+    background-color:white;
+    font-size:30px;
+    padding:100px;
+    position: relative;
+    text-align:left;
+}
+/*Portfolio-----------------------------------------------------------*/
+
+h3{
+    color: white;
+    font-size:30px;
+    text-align:left;
+    font-family:'Libre Franklin',sans-serif;
+    padding:20px;
+}
+
+.secondsection{
+    font-size:30px;
+    background-color:rgba(0, 0, 0, 0.733);
+    height:100%;
+}
+
+/*Flex container*/
+.flexbox-container{
+    background-color: rgba(0, 0, 0, 0.288);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+/*Individual boxes*/
+.flexbox-container> div {
+    background-color: #ff8952;
+    color: white;
+    border-radius:5px;
+    padding:10px;
+    margin:30px;
+    display:flex;
+    height:450px;
+    width:350px;
+    box-shadow:2px 2px 15px #6e006e75;
+}
+.flexbox-container > div:hover {
+    box-shadow:2px 2px 15px #ff8952;
+    margin:20px;
+    width:370px;
+    height:470px;
+}
+/*card 1*/
+.portfolio1{
+    background-image: url(img/Hero1.avif);
+    background-size:cover;
+}
+.titlebox1 {
+    color:white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.699);
+    width: 100%;
+    height:100px;
+}
+/*card 2*/
+.portfolio2{
+    background-image: url(img/project2.avif);
+    background-size:cover;
+}
+.titlebox2 {
+    color:white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.699);
+    width: 100%;
+    height:100px;
+}
+/*card 3*/
+.portfolio3{
+    background-image: url(img/project3.avif);
+    background-size:cover;
+}
+.titlebox3 {
+    color:white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.699);
+    width: 100%;
+    height:100px;
+}
+/*card 4*/
+.portfolio3{
+    background-image: url(img/project3.avif);
+    background-size:cover;
+}
+.titlebox4 {
+    color:white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.699);
+    width: 100%;
+    height:100px;
+}
+
+
+/*Get in Touch--------------------------------*/
+
+h4,h5{
+    font-size:30px;
+}
+.getin{
+    background-color: #0000004b;
+    padding:20px;
+    width:400px;
+}
+
+#bottom-hyperlinks{
+    display:none;
+    margin:30px;
+    font-size:40px;
+    color: coral;
+    text-shadow: rgb(0, 0, 0) 1px 1px 5px;;   
+}
+
+.form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.thirdsection{
+    background-image: linear-gradient(to bottom,rgba(124, 0, 124, 0.288),rgba(95, 38, 21, 0.596),rgba(160, 45, 0, 0.267)),
+     url(img/footer.avif);
+    background-size: cover;
+    color:white;
+    display: flex;
+    padding:20px;
+    height:100%;
+}
+
+footer{
+    text-align: center;
+    color:white;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+@media (max-width: 1400px){
+
+    h1{
+        font-size: 60px;
+
+    }
+    .sub{
+        font-size: 30px;
+    }
+    .contact{
+        top:20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .firstsection{
+        font-size: 20px;
+    }
+    /*fixing hyperlinks*/
+
+
+    #top-hyperlinks{
+        position: relative;
+        bottom:450px;
+        margin:20px;
+        text-align: end;
+        font-size: 30px;
+    }
+    body{
+        background-color:rgb(190, 190, 190);
+        margin-left:0px;
+        margin-right:0px;
+        
+    }
+    #menuBar{
+        left:80%;
+    }
+}
+@media (max-width: 460px){
+
+    h1{
+        font-size: 40px;
+
+    }
+    .sub{
+        font-size: 20px;
+    }
+    .contact{
+        top:20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .firstsection{
+        font-size: 10px;
+    }
+    #top-hyperlinks{
+        position: relative;
+        bottom:390px;
+        margin:20px;
+        text-align: end;
+        font-size: 30px;
+    }
+}
+    @media (max-width: 600px){
+    #bottom-hyperlinks{
+        display:contents;
+        font-size: 60px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+}

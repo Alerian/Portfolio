@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Libre+Franklin&family=Nunito+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/168bee7c82.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="hero">
+        <div class ="burgerMenu">
+            <i class="fa-solid fa-bars" id="menuBar"></i>
+            <a href="https://github.com/Alerian"><i class="fa-brands fa-github" id="gitHubLogo"></i></a>
+            <a href="https://www.linkedin.com/in/alessia-t/"><i class="fa-brands fa-linkedin" id="linekdinLogo" ></i></a>
+            <dl class="listHolder">
+                <dt id="myWorkButton">Projects</dt>
+                <dt id="myContactButton">Contact</dt>
+            </dl>
+        </div>
+    <div class="herotext">
+        <h1>Hi, I am Alessia</h1>
+        <p class="sub"> Front-End Developer in Cambridge,UK</p>
+        <button class="contact" onclick="newpage('https://www.linkedin.com/in/alessia-tripodo-21201764/');"> Contact Me </button>
+    
+</div>      
+</header>
+
+
+<Section class="firstsection">
+    <h2>About me</h2>
+    <p class="aboutme"> I am a Front End Developer from Cambridge.
+       I have experience with: HTML, CSS, JavaScript, React,
+       and I have just completed the PurpleBeard Bootcamp.
+    </p>
+</Section>
+ 
+<section class="secondsection">
+    <h3>Portfolio</h3>
+    <div class="flexbox-container">
+        <div class="portfolio1">
+            <div class="titlebox1">This is a random project</div>
+        </div>
+        <div class="portfolio2">
+            <div class="titlebox2">This is a random project</div>
+        </div>
+        <div class="portfolio3">
+            <div class="titlebox3">This is a random project</div>
+        </div>
+        <div class="portfolio4">
+            <div class="titlebox4">This is a random project</div>
+        </div>
+    </div>
+</section>
+
+<section class="thirdsection">
+    <div class="getin">
+        <h4>Get in Touch</h4>
+    <p>
+        Available to accept requests for freelancing.
+        Feel free to contact me if you have any questions.
+        And don't forget to connect with me on linkedin for ease of communication!
+    </p>
+    <section id="bottom-hyperlinks">
+        <a href="https://github.com/Alerian"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alessia-t/"><i class="fa-brands fa-linkedin" ></i></a>
+    </section>
+    
+<h5>Instant Message</h5>
+        <form class="form" action="/action_page.php" method="get">
+            <label for="name">First Name</label>
+            <input type="text" id="name"name="Name"required>
+        </br><label for="surname">Surname</label>
+            <input type="text" id="surname" name="Surname"required>
+        </br><label for="email">Email</label>
+            <input type="email" id="Email" required>
+        </br><label for="message">Message</label>
+            <textarea name="comment" id="textbox" columns="50" rows="5" placeholder="leave a message"></textarea>
+        </br>
+    </br>
+            <input type="submit" id="send" value="Send a message"></input> 
+        </form>
+    </div>
+    </section>
+<script src="code.js"></script>
+<footer> © Copyright Alessia Tripodo 2022</footer>
+</body>
+</html>
